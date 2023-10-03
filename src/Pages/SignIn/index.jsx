@@ -1,11 +1,11 @@
+import Layout from "../../Components/Layout";
+
 function SignIn() {
 
     return (
-        <>
-            <h2 className="text-3xl font-bold underline bg-red-300">
+        <Layout>
             SignIn
-            </h2>
-        </>
+        </Layout>
     )
 }
 

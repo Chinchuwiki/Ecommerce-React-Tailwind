@@ -1,12 +1,12 @@
+import Layout from "../../Components/Layout";
+
 function MyAccount() {
 
-    return (
-      <>
-        <h2 className="text-3xl font-bold underline bg-red-300">
-        MyAccount
-        </h2>
-      </>
-    )
-  }
-  
-  export default MyAccount
+  return (
+    <Layout>
+      MyAccount
+    </Layout>
+  )
+}
+
+export default MyAccount

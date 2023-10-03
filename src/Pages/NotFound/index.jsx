@@ -1,12 +1,12 @@
+import Layout from "../../Components/Layout";
+
 function NotFound() {
 
-    return (
-      <>
-        <h2 className="text-3xl font-bold underline bg-red-300">
-        NotFound
-        </h2>
-      </>
-    )
-  }
-  
-  export default NotFound
+  return (
+    <Layout>
+      NotFound
+    </Layout>
+  )
+}
+
+export default NotFound

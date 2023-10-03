@@ -1,12 +1,12 @@
+import Layout from "../../Components/Layout";
+
 function MyOrder() {
 
-    return (
-      <>
-        <h2 className="text-3xl font-bold underline bg-red-300">
-        MyOrder
-        </h2>
-      </>
-    )
-  }
-  
-  export default MyOrder
+  return (
+    <Layout>
+      MyOrder
+    </Layout>
+  )
+}
+
+export default MyOrder
